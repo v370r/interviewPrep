@@ -1,4 +1,3 @@
-package recursion;
 
 class A {
     private static int counter = 0;
