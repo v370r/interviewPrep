@@ -14,11 +14,11 @@ public class longestSumSubArray {
         // int a[] = { 1 };
         int a[] = { 5, 4, -1, 7, 8 }; // ans should be 23
         int n = a.length;
-        System.out.println(kandaneAlgorithm(a, n));
+        System.out.println(kadaneAlgorithm(a, n));
         System.out.println(bruteForce(a, n));
     }
 
-    private static int kandaneAlgorithm(int[] a, int n) {
+    private static int kadaneAlgorithm(int[] a, int n) {
         int max_sum = Integer.MIN_VALUE;
         int curr_sum = 0;
         for (int i : a) {
@@ -33,7 +33,7 @@ public class longestSumSubArray {
         return max_sum;
     }
 
-    // TODO: fixed as i can be equal to j
+    // Note: fixed as i can be equal to j
     private static int bruteForce(int[] a, int n) {
         int max_sum = Integer.MIN_VALUE;
         for (int i = 0; i < a.length; i++) {
