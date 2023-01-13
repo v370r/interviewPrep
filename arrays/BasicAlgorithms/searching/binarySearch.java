@@ -21,9 +21,9 @@ public class binarySearch {
         while (first <= last) {
             mid = (first + last) / 2;
             if (arr[mid] < target) {
-                first = mid;
+                first = mid + 1; // if the target is last element
             } else if (arr[mid] > target) {
-                last = mid;
+                last = mid - 1; // reduce so it can reach 0 (element not present) and first >last
             } else {
                 return mid;
             }
