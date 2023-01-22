@@ -16,6 +16,6 @@ public class binarySearch {
 
     // TODO: implement BinarySearch
     private static int binarySearchSolution(int[] a2, int key) {
-        return null;
+        return (Integer) null;
     }
 }
