@@ -15,7 +15,7 @@ public class maxProduct {
 
     private static boolean maxProduct(int[] a) {
         Set s = new HashSet<>(Arrays.asList(a));
-        System.out.println(Arrays.toString(s));
+        System.out.println(s);
         if (s.size() == a.length) {
             return true;
         }

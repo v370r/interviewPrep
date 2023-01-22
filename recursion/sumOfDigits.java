@@ -1,4 +1,3 @@
-package recursion;
 
 /**
  * sumOfDigits
@@ -7,8 +6,8 @@ public class sumOfDigits {
     public static void main(String[] args) {
         int x = 4;
         int sum = 0;
-        // System.out.println(recursiveSumOfDigits(x, sum));
-        System.out.println(recursive(123));
+        System.out.println(recursiveSumOfDigits(x, sum));
+        System.out.println(recursive(x));
     }
 
     private static int recursiveSumOfDigits(int x, int sum) {
