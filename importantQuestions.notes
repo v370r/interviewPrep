@@ -4,7 +4,7 @@ Arrays:
     [√] Kadane’s Algorithm
     [√] Missing number in array
     [ ] Merge two sorted arrays //TODO: solved with extra space
-    [ ] Rearrange array alternatively
+    [√] Rearrange array alternatively
     [ ] Number of pairs
     [ ] Inversion of Array
     [ ] Sort an array of 0s, 1s and 2s
