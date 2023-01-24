@@ -1,0 +1,19 @@
+Ear = jar +War
+jar (java archives) = collection of .class files
+war (web archives) =represents web applications Servlets, JSP, HTML pages, JavaScript   
+Ear (Enterprise archive)
+
+Create jar :
+    jar -cvf praveen.jar *.class
+
+Extract jar file:
+    jar -xvf bhaskar.jar
+
+Display content of jar files 
+    jar -tvf bhaskar.jar
+
+System property:
+    java -Dbhskar=scjp Test
+
+run jar file
+    java -jar demo.jar
