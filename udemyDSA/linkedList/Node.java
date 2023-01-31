@@ -1,4 +1,4 @@
-package udemyDSA.linkedList.singleLinkedList;
+package udemyDSA.linkedList;
 
 public class Node {
     public int value;

@@ -1,4 +1,4 @@
-package udemyDSA.linkedList.singleLinkedList;
+package udemyDSA.linkedList;
 
 public class singleLinkedList {
     public Node head;

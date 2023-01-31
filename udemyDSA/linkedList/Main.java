@@ -1,6 +1,6 @@
-package udemyDSA.linkedList.singleLinkedList;
+package udemyDSA.linkedList;
 
-public class Main {
+class singleLinkedListMain {
     public static void main(String[] args) {
         singleLinkedList sLL = new singleLinkedList();
         sLL.createSingleLinkedList(5);
@@ -45,6 +45,21 @@ public class Main {
         sLL.insertInLinkedList(9, 4);
         sLL.insertInLinkedList(13, 5);
         return sLL;
+    }
+
+}
+
+class circularSinglyLinkedListMain {
+    public static void main(String[] args) {
+        circularSinglyLinkedList csLL = new circularSinglyLinkedList();
+        csLL.createcircularSinglyLinkedList(10);
+        // System.out.println(csLL.head.value);
+        csLL.insertcircularSinglyLinkedList(0, 4);
+        csLL.insertcircularSinglyLinkedList(1, 6);
+        csLL.insertcircularSinglyLinkedList(8, 7);
+        // csLL.travesecircularSinglyLinkedListWithOutSize();
+        // csLL.traverseCSLL();
+        System.out.println(csLL.getSize());
     }
 
 }
