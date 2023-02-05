@@ -6,10 +6,10 @@ public class gcd {
     }
 
     private static int euclidiangcd(int x, int y) {
-        if (y == 0) {
-            return x;
+        if (x == 0) {
+            return y;
         }
 
-        return euclidiangcd(y, x % y);
+        return euclidiangcd(y % x, x); // best and understandable approach :)
     }
 }
