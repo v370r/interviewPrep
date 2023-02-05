@@ -5,7 +5,7 @@ public class gcd {
         System.out.println(euclidiangcd(x, y));
     }
 
-    private static int euclidiangcd(int x, int y) {
+    public static int euclidiangcd(int x, int y) {
         if (x == 0) {
             return y;
         }
