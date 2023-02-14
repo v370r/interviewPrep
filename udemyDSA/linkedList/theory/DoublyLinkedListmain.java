@@ -1,6 +1,6 @@
 package udemyDSA.linkedList.theory;
 
-class Main {
+class doublyLinkedListMain {
     public static void main(String[] args) {
         doublyLinkedList dll = new doublyLinkedList();
         dll.createDLL(10);
@@ -15,5 +15,15 @@ class Main {
         dll.traverseDLL();
         dll.deleteDLL();
         dll.traverseDLL();
+    }
+}
+
+class circularDoublyLinkedListMain {
+    public static void main(String[] args) {
+        circularDoublyLinkedList cdll = new circularDoublyLinkedList();
+        cdll.createCDLL(10);
+        cdll.insertNode(2, 0);
+        System.out.println(cdll.head.next.value);
+
     }
 }
