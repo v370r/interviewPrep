@@ -1,4 +1,4 @@
-package udemyDSA.linkedList;
+package udemyDSA.linkedList.theory;
 
 public class circularSinglyLinkedList {
     public Node head;

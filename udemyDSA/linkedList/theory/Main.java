@@ -1,4 +1,4 @@
-package udemyDSA.linkedList;
+package udemyDSA.linkedList.theory;
 
 class singleLinkedListMain {
     public static void main(String[] args) {
