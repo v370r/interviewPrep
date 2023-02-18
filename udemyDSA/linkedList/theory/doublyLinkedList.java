@@ -1,7 +1,5 @@
 package udemyDSA.linkedList.theory;
 
-import java.time.LocalDate;
-
 public class doublyLinkedList {
     public DoublyNode head;
     public DoublyNode tail;
