@@ -27,35 +27,29 @@ public class partition {
         while (tempNode.next != null) {
             tempNode = tempNode.next;
             if (tempNode.value < x) {
-                Node newNode = new Node();
-                newNode.value = tempNode.value;
-                newNode.next = res.head;
-                res.head = newNode;
-                res.size = res.size + 1;
+                addLeftSide(res, tempNode.value);
             } else {
-                // Node newNode = new Node();
-                // newNode.value = tempNode.value;
-                // tail.next = newNode;
-                // tail = newNode;
-                res.insertNode(tempNode.value);
-
+                addRightSide(res, tempNode.value);
             }
         }
         res.traverseLLSize();
 
     }
 
-    // public static void addLeftSide(Node head, int value) {
-    // Node newNode = new Node();
-    // newNode.value = value;
-    // newNode.next = head;
-    // head = newNode;
-    // }
+    public static void addLeftSide(LinkedList ll, int value) {
+        Node newNode = new Node();
+        newNode.value = value;
+        newNode.next = ll.head;
+        ll.head = newNode;
+        ll.size = ll.size + 1;
+    }
 
-    // public static void addRightSide(Node tail, int value) {
-    // Node newNode = new Node();
-    // newNode.value = value;
-    // tail.next = newNode;
-    // tail = newNode;
-    // }
+    public static void addRightSide(LinkedList ll, int value) {
+        Node newNode = new Node();
+        newNode.next = null;
+        newNode.value = value;
+        ll.tail.next = newNode;
+        ll.tail = newNode;
+        ll.size = ll.size + 1;
+    }
 }
