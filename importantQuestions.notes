@@ -3,11 +3,11 @@ Arrays:
     [√] Count the triplets
     [√] Kadane’s Algorithm
     [√] Missing number in array
-    [ ] Merge two sorted arrays //TODO: solved with extra space
+    [!] Merge two sorted arrays //TODO: solved with extra space
     [√] Rearrange array alternatively
     [ ] Number of pairs
     [ ] Inversion of Array
-    [ ] Sort an array of 0s, 1s and 2s
+    [!] Sort an array of 0s, 1s and 2s //TODO: solve without extra space 
     [ ] Equilibrium point
     [ ] Leaders in an array
     [ ] Minimum Platforms
@@ -34,14 +34,14 @@ Arrays:
     [ ] Jumping Caterpillars
 
 Linked Lists:
-    [ ] Finding middle element in a linked list
+    [√] Finding middle element in a linked list
     [ ] Reverse a linked list
     [ ] Rotate a Linked List
     [ ] Reverse a Linked List in groups of given size
     [ ] Intersection point in Y shaped linked lists
-    [ ] Detect Loop in linked list
+    [√] Detect Loop in linked list
     [ ] Remove loop in Linked List
-    [ ] n’th node from end of linked list
+    [√] n’th node from end of linked list
     [ ] Flattening a Linked List
     [ ] Merge two sorted linked lists
     [ ] Intersection point of two Linked Lists
