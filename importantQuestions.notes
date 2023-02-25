@@ -35,16 +35,16 @@ Arrays:
 
 Linked Lists:
     [√] Finding middle element in a linked list
-    [ ] Reverse a linked list
+    [√] Reverse a linked list
     [ ] Rotate a Linked List
     [ ] Reverse a Linked List in groups of given size
-    [ ] Intersection point in Y shaped linked lists
+    [√] Intersection point in Y shaped linked lists
     [√] Detect Loop in linked list
-    [ ] Remove loop in Linked List
+    [√] Remove loop in Linked List
     [√] n’th node from end of linked list
     [ ] Flattening a Linked List
     [ ] Merge two sorted linked lists
-    [ ] Intersection point of two Linked Lists
+    [√] Intersection point of two Linked Lists  // same as Yshaped LL question
     [ ] Pairwise swap of a linked list
     [ ] Add two numbers represented by linked lists
     [ ] Check if Linked List is Palindrome

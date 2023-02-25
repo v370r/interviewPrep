@@ -16,7 +16,7 @@ public class sumLinkedList {
         LinkedList llb = new LinkedList();
         llb.createLL(5);
         llb.insertNode(9);
-        llb.insertNode(2);
+        llb.insertNode(3);
         llb.insertNode(1);
         LinkedList llc = sumLists(lla, llb);
         llc.traversalLL();
@@ -40,6 +40,9 @@ public class sumLinkedList {
             }
             res.insertNode(result % 10);
             carry = result / 10;
+        }
+        if (carry == 1) {
+            res.tail.value = res.tail.value + 10;
         }
         return res;
     }
