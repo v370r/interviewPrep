@@ -35,5 +35,6 @@ public class LinkedList {
                 tempNode = tempNode.next;
             }
         }
+        System.out.println();
     }
 }

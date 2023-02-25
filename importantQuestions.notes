@@ -9,14 +9,14 @@ Arrays:
     [ ] Inversion of Array
     [!] Sort an array of 0s, 1s and 2s //TODO: solve without extra space 
     [ ] Equilibrium point
-    [ ] Leaders in an array
+    [√] Leaders in an array
     [ ] Minimum Platforms
     [ ] Reverse array in groups
     [ ] K’th smallest element
     [ ] Trapping Rain Water
     [ ] Pythagorean Triplet
     [ ] Chocolate Distribution Problem
-    [ ] Stock buy and sell
+    [√] Stock buy and sell  TODO:// level 2 ,3 & 4 comes under DP
     [ ] Element with left side smaller and right side greater
     [ ] Convert array into Zig-Zag fashion
     [ ] Last Index of 1
@@ -46,12 +46,12 @@ Linked Lists:
     [ ] Merge two sorted linked lists
     [√] Intersection point of two Linked Lists  // same as Yshaped LL question
     [ ] Pairwise swap of a linked list
-    [ ] Add two numbers represented by linked lists
+    [√] Add two numbers represented by linked lists
     [ ] Check if Linked List is Palindrome
     [ ] Implement Queue using Linked List
     [ ] Implement Stack using Linked List
     [ ] Given a linked list of 0s, 1s and 2s, sort it
-    [ ] Delete without head pointer
+    [√] Delete without head pointer
 
 Stack and Queue:
     [ ] Parenthesis Checker
