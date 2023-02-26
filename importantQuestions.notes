@@ -178,6 +178,7 @@ Dynamic Programming
     [ ] Egg Dropping Puzzle
     [ ] Optimal Strategy for a Game
     [ ] Shortest Common Supersequence
+    [ ] Painters partition
 
 Divide and Conquer
     [ ] Find the element that appears once in sorted array
@@ -239,4 +240,8 @@ Strings
     [ ] Remove common characters and concatenate
     [ ] Geek and its Colored Strings
     [ ] Second most repeated string in a sequence
+
+
+Theory problems:
+    [√] Use comparator to compare objects based on different fields
 
