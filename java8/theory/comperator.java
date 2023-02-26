@@ -33,7 +33,7 @@ class PersonComparator implements Comparator<Person> {
         if (nameCompare != 0) {
             return nameCompare;
         }
-        int ageCompare = Integer.compare(p2.getAge(), p1.getAge());
+        int ageCompare = Integer.compare(p1.getAge(), p2.getAge());
         if (ageCompare != 0) {
             return ageCompare;
         }
