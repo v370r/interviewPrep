@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.geeksForGeeksTop20;
 
 class paintersPartition {
     public static void main(String[] args) {

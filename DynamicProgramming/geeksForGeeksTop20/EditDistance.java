@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.geeksForGeeksTop20;
 
 /*
  * Commonly used in spell correction 
