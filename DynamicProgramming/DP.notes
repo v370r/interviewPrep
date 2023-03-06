@@ -1,3 +1,13 @@
 before applying Dynamic programming make sure we have
 1. Optiomal Substructure
 2. Overlapping subproblems
+
+
+KnapSackProblems Identification:
+    1. O/1 Knapsack                                                                         --- Ex: subset Sum (element included only once)
+    2. Bounded KnapSack (limited no of times we can pick the coins/items)                   
+    3. UnBounded knapSack (unlimited times we can pick)
+
+    # General: 
+        1. An array (with n properties)
+        2. max value w (sack capacity)

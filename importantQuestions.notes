@@ -160,16 +160,16 @@ Greedy
 Dynamic Programming
     [ ] Minimum Operations
     [ ] Max length chain
-    [ ] Minimum number of Coins
+    [√] Minimum number of Coins
     [ ] Longest Common Substring
-    [ ] Longest Increasing Subsequence
+    [√] Longest Increasing Subsequence
     [ ] Longest Common Subsequence
-    [ ] 0 – 1 Knapsack Problem
+    [√] 0 – 1 Knapsack Problem
     [ ] Maximum sum increasing subsequence
     [ ] Minimum number of jumps
-    [ ] Edit Distance
+    [√] Edit Distance
     [ ] Coin Change Problem
-    [ ] Subset Sum Problem
+    [√] Subset Sum Problem
     [ ] Box Stacking
     [ ] Rod Cutting
     [ ] Path in Matrix
@@ -178,7 +178,12 @@ Dynamic Programming
     [ ] Egg Dropping Puzzle
     [ ] Optimal Strategy for a Game
     [ ] Shortest Common Supersequence
-    [ ] Painters partition
+    [√] Painters partition
+
+    //Extra questions
+    [ ]  Partition to K Equal Sum Subsets
+    [ ] Minimum operatins to reduxe X to 0 (https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+
 
 Divide and Conquer
     [ ] Find the element that appears once in sorted array
