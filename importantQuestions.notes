@@ -12,7 +12,7 @@ Arrays:
     [√] Leaders in an array
     [ ] Minimum Platforms
     [ ] Reverse array in groups
-    [ ] K’th smallest element
+    [√] K’th smallest element
     [ ] Trapping Rain Water
     [ ] Pythagorean Triplet
     [ ] Chocolate Distribution Problem
@@ -95,7 +95,7 @@ Heap
     [ ] Operations on Binary Min Heap
     [ ] Rearrange characters
     [ ] Merge K sorted linked lists
-    [ ] Kth largest element in a stream
+    [√] Kth largest element in a stream
 
 Recursion
     [ ] Flood fill Algorithm
@@ -218,7 +218,7 @@ BitMagic
     [ ] Maximum subset XOR
 
 Strings
-    [ ] Reverse words in a given string
+    [√] Reverse words in a given string
     [ ] Permutations of a given string
     [ ] Longest Palindrome in a String
     [ ] Recursively remove all adjacent duplicates

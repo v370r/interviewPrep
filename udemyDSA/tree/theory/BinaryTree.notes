@@ -1,0 +1,62 @@
+Binary tree - Traversal
+    Depth first search:
+        - Preorder traversal    root  ->  left -> right
+        - Inorder traversal     left  ->  root -> right
+        - Post order traversal  left  ->  right -> root
+    
+    Breadth first search:
+        - level order traversal
+
+Binary search tree:
+    - creation of BST
+
+AVL -Adelson-Velskii and Landis
+
+       use : 
+       if 10,20,30,40,50,60 ==  10->20-> ...soon if we wanna search without AVL it becomes O(n ) search if we put in AVL search costs O(logn)
+         when insert :
+            1. rotation is not required
+            2. rotation is  required
+
+            #Left left condition
+                //time O(1) space O(1)
+                rotate left left condition :
+                    rotateRight(disbalancedNode) {
+                        newRoot = disbalancedNode.leftChild;
+                        disbalancedNode.leftchild = disbalancedNode.leftchild.rightchild
+                        newRoot.rightChild = disbalancedNode
+                        update height of disbalancedNode and newRoot
+                        return newRoot
+                    }
+
+            #left right condition
+                todo:
+                    rotate left 
+                    rotate right 
+
+                1. rotate left disbalanced-leftChild:
+                    rotateLeft(disbalancedNode) {
+                        newRoot = disbalancedNode.rightChild
+                        disbalancedNode.rightChild = disbalancedNode.rightChild.leftChild
+                        newRoot.leftChild= disbalanced
+                        update height of disbalancedNode and newRoot
+                        return newRoot
+                    }
+                    
+                2. rotate right disbalanced node:
+                    rotateRight(disbalancedNode) {
+                        newRoot = disbalancedNode.leftchild 
+                        disbalancedNode.leftChild = disbalancedNode.leftChild.rightChild //mostly null
+                        newRoot.rightChild = disbalancedNode
+                        update height of disbalanced node and root
+                        return newRoot
+                    }
+            #right right condition
+
+                1. rotateLeft(disbalancedNode) {
+                    newRoot = disbalanced.right
+
+                }
+            #right left condition  
+                1. rotate right disbalancedNode.rightChild
+                2. rotate left disbalancedNode

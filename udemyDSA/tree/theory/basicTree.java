@@ -1,4 +1,4 @@
-package udemyDSA.tree;
+package udemyDSA.tree.theory;
 
 public class basicTree {
     public static void main(String[] args) {

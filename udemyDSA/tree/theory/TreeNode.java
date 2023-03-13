@@ -1,4 +1,4 @@
-lepackage udemyDSA.tree;
+package udemyDSA.tree.theory;
 
 import java.util.ArrayList;
 
