@@ -15,14 +15,14 @@ public class mergeTwoSortedArrays {
 
     private static void mergeTwoSortedArraysWithExtraSpace(int[] arr1, int[] arr2) {
         int i = 0;
-        int j = 0;
+        int j = 0;a
         int k = 0;
         int finalLength = arr1.length + arr2.length;
         int[] res = new int[finalLength];
         while (k < finalLength && j < arr2.length && i < arr1.length) {
             if (arr1[i] < arr2[j] && i < arr1.length) {
                 res[k] = arr1[i];
-                i++;
+                i++; 
                 k++;
             } else if (arr1[i] >= arr2[j] && j < arr2.length) {
                 res[k] = arr2[j];

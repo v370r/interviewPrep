@@ -1,0 +1,106 @@
+--Types of sorting:
+                                              sorting
+                                        /                  \
+                                /                               \
+                space used                                                    stability
+               /          \                                                /             \
+         /                      \                                  /                           \
+    In pace                  out of place                       stable                               Unstable
+
+
+
+
+Stability:
+        stable sorting:
+                if a searching algorithm after sorting the contents does not change the sequence of similar content in which they appear ,
+                    then this sorting is called stable sorting 
+
+                    order of same values doesn't change  
+
+            Ex: insertion sort
+        
+        Unstable sorting:
+                after sorting conent changes the sequence of similar content in which they appear.
+
+            Ex: Quick sort
+
+Algorithms:
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+        4. Bucket sort
+        5. Merge sort
+        6. Quick sort
+        7. Heap sort
+
+which one to select?
+    -- stability
+    -- space efficient
+    -- Time efficient
+
+
+    1. Bubble sort:
+            usecase:
+                    - input is almost sorted
+                    - space is a concern
+                    - Easy to implement
+            avoid:
+                    - Average time complexity is poor
+
+    2. selection sort:
+            pick minimum element as move it to the first 
+
+            usecase:
+                - insufficent memory
+                - easy to implement
+            
+            avoid:
+                time is concern
+
+    3. Insertion sort:
+            - Divide array into twow parts 
+            - take first element from unsorted array and find its correct position in sorted array
+            - repeat until unsorted array is empty
+
+            usecase:
+                insufficent memory
+                easy to implement
+                when there is a continuous inflow of numbers and want to keep them sorted
+
+            avoid:
+                - when time is consern
+
+    4. Bucket Sort:
+            - create buckets and distribute elements of array into buckets
+            - Sort buckets individually
+            - Merge buckets after sorting
+
+             - No of buckets = round(sqrt(number of elements))
+                Appropriate bucket =  ceil(value*number of buckets/maxValue)
+            
+            usercase:
+                - when input is uniformly distributed over range
+                        [√] 1,2,4,5,3,8,7,9    
+                        [x] 1,2,4,9,49,3,95
+            avoid:
+                - when space is a concern
+
+    5. Quick sort:
+            - Quick sort is a divide and conquer algorithm
+            - find pivot number and make sure smaller numbers are located at the left of the pivo and bigger numbers are 
+                located at the right of the pivot
+            - unlike merge sort no extra space is required
+
+            usecase:
+                - when average expected time is O(NlogN)
+
+            avoid:
+                - when space is a concern (recursive )
+                - when you need stable sort
+
+    6. Heap Sort:
+         - insert data to binary heap there
+         - extract data from binary heap
+         - best stuited with array doesnt work with LL
+         
+        

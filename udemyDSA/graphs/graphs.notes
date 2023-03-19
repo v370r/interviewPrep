@@ -1,0 +1,32 @@
+Graphs:
+    Graph consists of a finite set of vertices (or nodes) and a set of edges whicch connect a pair of nodes
+
+    - vertices:
+            vertices are nodes of Graph
+    - Edges:
+            edge is the line that connects pais of vertices
+    - unweighted graphs :
+            A graph which does not have a weight assosciated with any Edges
+    - weighted graph:
+            A graph which has weights associsated with any edge
+    - undirected graph:
+            In case the edge of the graph do not have a direction associated with them
+    - cyclic graph:
+            A graph which ha atleast one loop
+    - Acyclic graph:
+            A graph with no loops
+    - tree:
+            Its a special case of directed acyclic graphs
+
+    #Types:   
+                                            Graphs:
+                                    /                   \
+                            Directed                    undirected
+                            /    \                         /     \
+                    Weighted      Unweighted           weighted  unweighted
+                 /        \                         /        \
+            +ve           -ve                  +ve           -ve
+
+
+    #Adjacency Matrix:
+         A adjacency matrix is a square matrix yoou can say its a 2d array. And the elements of the matrix indicate wheter pairs of vertices or not inthe graph
