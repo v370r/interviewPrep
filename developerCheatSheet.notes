@@ -488,6 +488,32 @@ public int[] fn(int[] arr, int k) {
 [end]
 
 ------------------------------------------------------------------------------------------------------------------------------------
+- Binary Search: with decimals(doubles) values if looking for maximum
+
+[java]
+    public int fn(int[] arr) {
+        int left = MINIMUM_POSSIBLE_ANSWER;
+        int right = MAXIMUM_POSSIBLE_ANSWER;
+        while (high - low > 1e-6) {
+            int mid = left + (right - left) / 2;
+            if (check(mid)) {
+                high = mid;
+            } else {
+                low = mid;
+            }
+        }
+
+        return right;
+    }
+
+    public boolean check(int x) {
+        // this function is implemented depending on the problem
+        return BOOLEAN;
+    }
+
+[end]
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 - Backtracking:
 

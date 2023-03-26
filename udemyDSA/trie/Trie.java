@@ -1,7 +1,5 @@
 package udemyDSA.trie;
 
-import javax.swing.plaf.TreeUI;
-
 public class Trie {
     private TrieNode root;
 

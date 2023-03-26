@@ -188,7 +188,7 @@ Dynamic Programming
 Divide and Conquer
     [ ] Find the element that appears once in sorted array
     [ ] Search in a Rotated Array
-    [ ] Binary Search
+    [√] Binary Search
     [ ] Sum of Middle Elements of two sorted arrays
     [ ] Quick Sort
     [ ] Merge Sort
@@ -250,20 +250,24 @@ Strings
 Ranged Binary Search Questions:
     [√] House Robber IV
     [√] Maximum Candies Allocated to K Children
-    [ ] Maximum Value at a Given Index in a Bounded Array
+    [√] Maximum Value at a Given Index in a Bounded Array
     [√] Kth Missing Positive Number
     [√] Minimum Number of Days to Make m Bouquets
     [√] painters Partition
     [√] Find the Smallest Divisor Given a Threshold
     [√] Divide Chocolate
-    [ ] Capacity To Ship Packages In N Days
+    [√] Capacity To Ship Packages In N Days
     [√] Koko Eating Bananas
-    [ ] Minimize Max Distance to Gas Station
-    [ ] Split Array Largest Sum
-    [ ] Minimum Time to Complete Trips
-    [ ] Maximum Tastiness of Candy Basket
+    [√] Minimize Max Distance to Gas Station
+    [√] Split Array Largest Sum
+    [√] Minimum Time to Complete Trips
+    [√] Maximum Tastiness of Candy Basket
     [ ] Number of Flowers in Full Bloom
 
 Theory problems:
     [√] Use comparator to compare objects based on different fields
 
+
+theory to complete:
+[ ] https://leetcode.com/problems/longest-cycle-in-a-graph/solutions/3343308/easy-solutions-with-explanation-in-java-dfs-kahn-s/?languageTags=java
+[ ] klee's algorithm techDose

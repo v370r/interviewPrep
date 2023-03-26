@@ -113,17 +113,15 @@ public class maximumCandels {
         for (int i = 0; i < candies.length; i++) {
             right = Math.max(candies[i], right);
         }
-        int ans = 0;
         while (left <= right) {
             mid = (left + right) / 2;
             if (checkPossible(candies, mid) >= children) {
                 left = mid + 1;
-                ans = Math.max(ans, mid);
             } else {
                 right = mid - 1;
             }
         }
-        return ans;
+        return right;
     }
 
     private static long checkPossible(int[] candies, int mid) {

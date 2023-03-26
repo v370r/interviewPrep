@@ -12,7 +12,7 @@ Explanation: You can divide the chocolate to [1,2,3], [4,5], [6], [7], [8], [9]
  */
 public class divideChocolates {
     public static void main(String[] args) {
-        int sweetness[] = { 1, 2, 2, 1, 2, 2, 1, 2, 2 }, K = 2;
+        int sweetness[] = { 5, 6, 7, 8, 9, 1, 2, 3, 4 }, K = 8;
         System.out.println("Divide chocolates and pick the minimum sweetness :" + minimumSweetness(sweetness, K));
     }
 
@@ -32,7 +32,7 @@ public class divideChocolates {
             }
         }
 
-        return low;
+        return high;
     }
 
     private static boolean isPossible(int[] sweetness, int k, int mid) {
@@ -44,6 +44,7 @@ public class divideChocolates {
                 dividents++;
             }
         }
+
         return dividents >= k + 1;
     }
 }
