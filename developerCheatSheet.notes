@@ -513,6 +513,46 @@ public int[] fn(int[] arr, int k) {
 
 [end]
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+- Binary search: with upper and lower Bound
+
+// Mostly useful for linesweep algorithms
+
+[java]
+    private static int binarySearchUpperBound(int[] startArray, int person) {
+        int low = 0, high = startArray.length - 1, mid;
+          while (low <= high) {
+            mid = (low + high) / 2;
+            if (startArray[mid] <= person) {
+                low = mid + 1;
+            } else if (startArray[mid] > person) {
+                high = mid - 1;
+            }
+        }
+        return low;
+
+    }
+[end]
+
+UpperBound:
+
+[java]
+    private static int binarySearchLowerBound(int[] startArray, int person) {
+        int low = 0, high = startArray.length - 1, mid;
+        while (low <= high) {
+            mid = (low + high) / 2;
+            if (startArray[mid] < person) {
+                low = mid + 1;
+            } else if (startArray[mid] >= person) {
+                high = mid - 1;
+            }
+        }
+        return low;
+
+    }
+[end]
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 - Backtracking:

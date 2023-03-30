@@ -156,6 +156,7 @@ Greedy
     [ ] Minimum Spanning Tree
     [ ] Shop in Candy Store
     [ ] Geek collects the balls
+    [ ] Minimum balloons burst (greedy as well as ranged binary)
 
 Dynamic Programming
     [ ] Minimum Operations
@@ -262,7 +263,7 @@ Ranged Binary Search Questions:
     [√] Split Array Largest Sum
     [√] Minimum Time to Complete Trips
     [√] Maximum Tastiness of Candy Basket
-    [ ] Number of Flowers in Full Bloom
+    [√] Number of Flowers in Full Bloom
 
 Theory problems:
     [√] Use comparator to compare objects based on different fields

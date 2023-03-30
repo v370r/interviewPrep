@@ -15,3 +15,16 @@ class test123 {
         }
     }
 }
+
+/**
+ * test
+ */
+public class test {
+
+    public static void main(String[] args) {
+        int[] x;
+        x = new int[3];
+        // x={1,2,3}; tthrows error
+
+    }
+}
