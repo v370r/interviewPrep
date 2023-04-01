@@ -19,12 +19,17 @@ class test123 {
 /**
  * test
  */
-public class test {
+class test2 {
 
     public static void main(String[] args) {
         int[] x;
         x = new int[3];
         // x={1,2,3}; tthrows error
-
+        System.out.println(Arrays.toString(x));
+        String s = "vijay kumar";
+        System.out.println(s.substring(4));
+        System.out.println(s.substring(0, 4));
+        // System.out.println(Integer.valueOf(Integer.valueOf("0b11")));
+        System.out.println('a' - 96);
     }
 }
