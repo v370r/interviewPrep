@@ -164,7 +164,7 @@ Dynamic Programming
     [√] Minimum number of Coins
     [ ] Longest Common Substring
     [√] Longest Increasing Subsequence
-    [ ] Longest Common Subsequence
+    [√] Longest Common Subsequence
     [√] 0 – 1 Knapsack Problem
     [ ] Maximum sum increasing subsequence
     [ ] Minimum number of jumps
@@ -184,6 +184,8 @@ Dynamic Programming
     //Extra questions
     [ ]  Partition to K Equal Sum Subsets
     [ ] Minimum operatins to reduxe X to 0 (https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+    [ ] Unique paths II (https://leetcode.com/problems/unique-paths-ii/description/)
+    [ ] Unique paths III (https://leetcode.com/problems/unique-paths-iii/)
 
 
 Divide and Conquer
@@ -226,7 +228,7 @@ Strings
     [ ] Check if string is rotated by two places
     [ ] Roman Number to Integer
     [ ] Anagram
-    [ ] Remove Duplicates
+    [√] Remove Duplicates
     [ ] Form a Palindrome
     [ ] Longest Distinct Characters in the string
     [ ] Implement Atoi

@@ -636,3 +636,16 @@ UpperBound:
     }
 [end]
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+For elevation of int to Long 
+use 
+[java]
+1L*num1*num2 
+[end]
+dont use Long.valueOf() or num1*num2*1L loss of precision 
+Long.valueOf(potions[mid] * spell) < success is equivalent to (long) Long.valueOf(potions[mid] * spell) < success,
+
+
+which may lead to incorrect results due to the loss of precision when the Long object is converted to a long primitive.
