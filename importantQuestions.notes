@@ -267,6 +267,13 @@ Ranged Binary Search Questions:
     [√] Maximum Tastiness of Candy Basket
     [√] Number of Flowers in Full Bloom
 
+Island Problems:
+    [√] Number of islands
+    [ ] Surrounded Regions
+    [ ] Number of Islands
+    [ ] Number of Distinct Islands
+    [ ] Max Area of Island
+
 Theory problems:
     [√] Use comparator to compare objects based on different fields
 
