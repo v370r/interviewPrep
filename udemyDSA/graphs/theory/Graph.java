@@ -34,6 +34,18 @@ public class Graph {
         return s.toString();
     }
 
+    // get Neighbours
+    public ArrayList<GraphNode> getNeighbours(GraphNode node) {
+        ArrayList<GraphNode> neighBours = new ArrayList<>();
+        int nodeIndex = node.index;
+        for (int i = 0; i < adjacentMatrix.length; i++) {
+            if (adjacentMatrix[nodeIndex][i] == 1) {
+                neighBours.add(nodeList.get(i));
+            }
+        }
+        return neighBours;
+    }
+
 }
 
 class GraphWithAdjList {
@@ -66,4 +78,5 @@ class GraphWithAdjList {
         }
         return s.toString();
     }
+
 }
