@@ -1,5 +1,4 @@
-import java.security.Policy;
-import java.util.ArrayDeque;
+import java.util.*;
 import java.util.Deque;
 
 /*
@@ -26,6 +25,20 @@ public class validStackSequence {
             }
         }
         return i == 0;
+    }
+
+    // internet solution using stacks
+    public boolean validateStackSequencesUsingStacks(int[] pushed, int[] popped) {
+        Stack<Integer> stack = new Stack<>();
+        int j = 0;
+        for (int x : pushed) {
+            stack.push(x);
+            while (!stack.empty() && stack.peek() == popped[j]) {
+                stack.pop();
+                j++;
+            }
+        }
+        return stack.empty();
     }
 
     // My solution beats 92%
