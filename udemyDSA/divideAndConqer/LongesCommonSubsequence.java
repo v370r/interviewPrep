@@ -14,7 +14,7 @@ A common subsequence of two strings is a subsequence that is common to both stri
  */
 public class LongesCommonSubsequence {
     public static void main(String[] args) {
-        String s1 = "elephant", s2 = "erepat";
+        String s1 = "bsbininm", s2 = "jmjkbkjkv";
         System.out.println("Longest matching sequence using recursion : " + UsingRecursion(s1, s2));
         System.out.println("Using DP " + dpSolution(s1, s2));
 
@@ -35,7 +35,7 @@ public class LongesCommonSubsequence {
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
-                    dp[i][j] = 1 + max(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]);
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
                 }
