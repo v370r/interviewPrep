@@ -287,6 +287,24 @@ Island Problems:
     [ ] Number of Distinct Islands
     [ ] Max Area of Island
 
+
+Matrix problems:
+    [ ] Spiral matrix I
+    [ ] Spiral matrix II 
+    [ ] Spiral matrix III
+    [ ] Longest Common Subsequence
+    [ ] Shortest Common Supersequence
+    [ ] Edit Distance
+    [ ] Minimum ASCII Delete Sum for Two Strings
+    [ ] Is Subsequence
+    [ ] Distinct Subsequences
+    [ ] Longest Palindromic Subsequence
+    [ ] Longest Palindromic Substring
+    [ ] Palindromic Substrings
+    [ ] Minimum Insertion Steps to Make a String Palindrome
+    [ ] Max Dot Product of Two Subsequences
+
+
 Theory problems:
     [√] Use comparator to compare objects based on different fields
 
@@ -294,3 +312,4 @@ Theory problems:
 theory to complete:
 [ ] https://leetcode.com/problems/longest-cycle-in-a-graph/solutions/3343308/easy-solutions-with-explanation-in-java-dfs-kahn-s/?languageTags=java
 [ ] klee's algorithm techDose
+
