@@ -288,7 +288,7 @@ Island Problems:
     [ ] Max Area of Island
 
 
-Matrix problems:
+Matrix problems || Needleman-Wunsch algorithm for global alignment:
     [ ] Spiral matrix I
     [ ] Spiral matrix II 
     [ ] Spiral matrix III
