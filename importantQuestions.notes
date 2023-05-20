@@ -155,6 +155,21 @@ Graph
         [ ] Evaluate Division
         [ ] Get Watched Videos by Your Friends
         [ ] Cut Off Trees for Golf Event
+    
+    Union Find:
+        [ ] NumberOfConnectedComponentsInAnUndirectedGraph
+        [ ] AccountsMerge
+        [ ] RedundantConnection
+        [ ] FriendCircles
+        [ ] SatisfiabilityOfEqualityEquations
+        [ ] LongestConsecutiveSequence
+        [ ] SurroundedRegions
+        [ ] NumberOfIslands
+        [ ] AccountsMergeII
+        [ ] GraphValidTree
+        [ ] Evaluate Division
+
+
 
 Greedy
     [ ] Activity Selection
