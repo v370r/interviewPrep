@@ -23,7 +23,6 @@ public class removeDuplicates {
      * Note: this method wont add the last element in the correct position so should
      * add it in correct position
      */
-
     private static int[] removeWithOutSet(int[] a) {
         int len = a.length, j = 0;
         for (int i = 0; i < len - 1; i++) {

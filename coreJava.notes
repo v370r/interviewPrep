@@ -1,0 +1,85 @@
+//Resource: https://java.scjp.jobs4times.com/
+Language Fundamentals OverView:
+
+    ! cant use reserved keyWords !
+    Rules:
+        1. The only allowed characters in java identifiers. (else compile time error)
+          # Identifiers :         
+            a to z
+            A to z
+            0 to 9          (! can't start with digit)
+            _ $
+
+        2. We cant use reserved words.
+
+    #Integral Literals:
+        1. Decimal Literal (0 to 9)
+
+        2. Octal literals (0 - 7 and starts with 0,  int x=010) 
+
+        3. Hexal Literals (0 to 9 and A to Z , int x=0x10)
+
+        4. binary (int x = 0b111)
+
+    # floating point literal:
+        floating point literal is by default double so 
+
+            float f=123.456;//C.E:possible loss of precision(invalid)
+            float f=123.456f;(valid)
+            double d=123.456;(valid)
+    
+    # Usage of _ Symbol
+        We can use more than one underscore symbol also between the digits.
+        [√] double d = 1_23__456.789;
+        [x] double d = 1_23_.7_8_ 
+
+    # Var- arg methods
+        methodOne(int...  x)   ... is called as ellipse
+
+        [√] methodOne(int... x) (valid)
+        [√] methodOne(int ...x) (valid)
+        [√] methodOne(int...x) (valid)
+        [!] methodOne(int x...) (invalid)
+        [!] methodOne(int. ..x) (invalid)
+        [!] methodOne(int .x..) (invalid)
+
+        [√] methodOne(int a, int ...b) (valid)
+        [!] methodOne(int ...b, int a) (invalid)
+
+    # Static Blocks:
+        check Main available or not?
+            if available :
+                run static block -> run main method
+            else :
+                show error saying main method is not available
+
+    # Command line arguments:
+        java Test 10 20  
+        if the string itself have spaces  use double quotes
+            Ex: java test "vijay kumar"
+
+    # Coding standards for a listeners:
+        Method name should be prefixed with add
+        [√] public void addMyActionListener(MyActionListener l) (valid)
+        [x] public void registerMyActionListener(MyActionListener l) (invalid)
+        [x] public void addMyActionListener(ActionListener l) (invalid)
+    
+        Method name should be prefixed with remove
+        [√] public void removeMyActionListener(MyActionListener l) (valid)
+        [x] publc void unregisterMyActionListener(MyActionListener l) (invalid)
+        [x] public void removeMyActionListener(ActionListener l) (invalid)
+        [x] public void deleteMyActionListener(MyActionListener l) (invalid)
+
+    # Various memory areas in JVM:
+
+        Method area:
+            for static blocks / static references / references
+
+        Heap Area:
+            for instances variables
+        
+        Stack memory:
+            Methdo call / local variables
+
+        the instructions which has to be executed next will be stored in corresponding pc registers
+        Native method invocations will be stored in native method stacks

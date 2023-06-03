@@ -5,11 +5,11 @@ public class gcd {
         System.out.println(euclidiangcd(x, y));
     }
 
-    private static int euclidiangcd(int x, int y) {
-        if (y == 0) {
-            return x;
+    public static int euclidiangcd(int x, int y) {
+        if (x == 0) {
+            return y;
         }
 
-        return euclidiangcd(y, x % y);
+        return euclidiangcd(y % x, x); // best and understandable approach :)
     }
 }

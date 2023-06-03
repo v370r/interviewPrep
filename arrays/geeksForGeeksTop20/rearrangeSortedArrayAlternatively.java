@@ -6,34 +6,43 @@ import java.util.Arrays;
  * Given a sorted array of positive integers. 
  * Your task is to rearrange the array elements alternatively i.e first element should be max value, 
  * second should be min value, third should be second max, fourth should be second min and so on.
- * //TODO:  Modify the original array itself. Do it without using any extra space. You do not have to return anything.
+ *  Modify the original array itself. Do it without using any extra space. You do not have to return anything.
  */
 public class rearrangeSortedArrayAlternatively {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 4, 5, 6 };
-        System.out.println(Arrays.toString(rearrangeSolution(arr)));
-        // System.out.println(rearrangeNoSpaceSolution(arr));
+        // System.out.println(Arrays.toString(rearrangeSolution(arr)));
+        rearrangeNoSpaceSolution(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
-    // TODO:
-    // private static int[] rearrangeNoSpaceSolution(int[] arr) {
-    // int len = arr.length;
-    // int curr_max_ind;
-    // int curr_min_ind;
-    // int final_ind = 0;
-    // int temp_val = arr[curr_min_ind];
-    // while (final_ind < len) {
-    // arr[final_ind] = arr[curr_max_ind];
-    // curr_max_ind--;
-    // final_ind++;
-    // temp_val = arr[curr_min_ind + 1];
-    // arr[final_ind] = arr[curr_min_ind];
-    // curr_min_ind++;
-
-    // }
-    // return arr;
-    // }
+    /*
+     * even location :- arr[i] = arr[i]+ (arr[max_indx]%me)*me
+     * odd location :- arr[i] = arr[i]+ (arr[min_indx]%me)*me
+     */
+    private static void rearrangeNoSpaceSolution(int[] arr) {
+        int len = arr.length;
+        int max_element = arr[len - 1] + 1;
+        boolean flag = true;
+        int front = 0;
+        int back = len - 1;
+        for (int i = 0; i < len; i++) {
+            if (flag) {
+                int val = arr[back] % max_element;
+                arr[i] += max_element * val;
+                back--;
+            } else {
+                int val = arr[front] % max_element;
+                arr[i] += max_element * val;
+                front++;
+            }
+            flag = !flag;
+        }
+        for (int i = 0; i < len; i++) {
+            arr[i] /= max_element;
+        }
+    }
 
     private static int[] rearrangeSolution(int[] arr) {
         int i = 0;

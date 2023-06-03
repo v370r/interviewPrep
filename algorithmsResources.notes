@@ -1,0 +1,19 @@
+
+
+Line sweep algorithm:
+    https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+
+DP:
+    Optimal substructure property
+    Overlapping substructure
+
+BackTracking:
+    a problem solving algorithm that uses a brute force approach for finding the desired output
+
+    types:
+        Decision problem - search for feasible solution
+        Optimization problem - search for best solution
+        Enumeration probelm - find all solutions
+            1. checks whether the given node is a valid solution?
+            2. Discard invalid solutions with one iteration
+            3. enumerate all subtrees of the node to find the valid solution

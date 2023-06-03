@@ -10,12 +10,23 @@ public class binarySearch {
 
     public static void main(String[] args) {
         int key = 3;
+        int start = 0, end = a.length - 1;
         System.out.println(Arrays.binarySearch(a, key));
-        System.out.println(binarySearchSolution(a, key));
+        System.out.println(binarySearchSolution(a, key, start, end));
     }
 
     // TODO: implement BinarySearch
-    private static int binarySearchSolution(int[] a2, int key) {
-        return null;
+    private static int binarySearchSolution(int[] nums, int target, int start, int end) {
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == target)
+                return mid;
+            else if (nums[mid] > target)
+                end = mid - 1;
+            else
+                start = mid + 1;
+        }
+
+        return start;
     }
 }

@@ -1,0 +1,29 @@
+- Hashing:
+    hashing is a method of sorting and indexing data .
+    The idea behind hashing is to allow large amounts of data to be indexed using keys commonly created by formulas.
+
+                        - Magic function:
+        Apple  ----------------------------- 18
+        Applications  ---------------------- 20
+        Appmillers   ----------------------  22
+
+        Time efficient : O(1) / O(N) - if there are more collisions
+
+    Hashing Terminology:
+       #Hash function : 
+                function that can be used to map arbitrary sixe of data of fixed size;
+
+        # Key:
+            input data by a user
+
+        # Hash value :
+            A value that is returned by hash function
+        
+        #Hash table:
+            it is a data structure which implements an assosciate array abstract data type, a structure that can map keys to values
+        
+        # collisions:
+            A collisions occurs when two different keys to a hash function produces same output
+
+
+

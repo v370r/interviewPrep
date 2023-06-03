@@ -1,10 +1,6 @@
 package udemyDSA.arrays;
 
 import java.util.Arrays;
-/*
- * order of n return first two biggest numbers from given list
- */
-import java.util.Collections;
 
 public class secondBestScore {
     public static void main(String[] args) {

@@ -28,8 +28,6 @@ public class binarySearch {
                 return mid;
             }
         }
-
         return 0;
-
     }
 }

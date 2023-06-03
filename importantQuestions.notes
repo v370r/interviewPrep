@@ -3,20 +3,20 @@ Arrays:
     [√] Count the triplets
     [√] Kadane’s Algorithm
     [√] Missing number in array
-    [ ] Merge two sorted arrays //TODO: solved with extra space
-    [ ] Rearrange array alternatively
+    [!] Merge two sorted arrays //TODO: solved with extra space
+    [√] Rearrange array alternatively
     [ ] Number of pairs
     [ ] Inversion of Array
-    [ ] Sort an array of 0s, 1s and 2s
+    [!] Sort an array of 0s, 1s and 2s //TODO: solve without extra space 
     [ ] Equilibrium point
-    [ ] Leaders in an array
+    [√] Leaders in an array
     [ ] Minimum Platforms
     [ ] Reverse array in groups
-    [ ] K’th smallest element
+    [√] K’th smallest element
     [ ] Trapping Rain Water
     [ ] Pythagorean Triplet
     [ ] Chocolate Distribution Problem
-    [ ] Stock buy and sell
+    [√] Stock buy and sell  TODO:// level 2 ,3 & 4 comes under DP
     [ ] Element with left side smaller and right side greater
     [ ] Convert array into Zig-Zag fashion
     [ ] Last Index of 1
@@ -34,24 +34,24 @@ Arrays:
     [ ] Jumping Caterpillars
 
 Linked Lists:
-    [ ] Finding middle element in a linked list
-    [ ] Reverse a linked list
+    [√] Finding middle element in a linked list
+    [√] Reverse a linked list
     [ ] Rotate a Linked List
     [ ] Reverse a Linked List in groups of given size
-    [ ] Intersection point in Y shaped linked lists
-    [ ] Detect Loop in linked list
-    [ ] Remove loop in Linked List
-    [ ] n’th node from end of linked list
+    [√] Intersection point in Y shaped linked lists
+    [√] Detect Loop in linked list
+    [√] Remove loop in Linked List
+    [√] n’th node from end of linked list
     [ ] Flattening a Linked List
     [ ] Merge two sorted linked lists
-    [ ] Intersection point of two Linked Lists
+    [√] Intersection point of two Linked Lists  // same as Yshaped LL question
     [ ] Pairwise swap of a linked list
-    [ ] Add two numbers represented by linked lists
+    [√] Add two numbers represented by linked lists
     [ ] Check if Linked List is Palindrome
     [ ] Implement Queue using Linked List
     [ ] Implement Stack using Linked List
     [ ] Given a linked list of 0s, 1s and 2s, sort it
-    [ ] Delete without head pointer
+    [√] Delete without head pointer
 
 Stack and Queue:
     [ ] Parenthesis Checker
@@ -95,7 +95,7 @@ Heap
     [ ] Operations on Binary Min Heap
     [ ] Rearrange characters
     [ ] Merge K sorted linked lists
-    [ ] Kth largest element in a stream
+    [√] Kth largest element in a stream
 
 Recursion
     [ ] Flood fill Algorithm
@@ -143,6 +143,34 @@ Graph
     [ ] Alien Dictionary
     [ ] Snake and Ladder Problem
 
+    BFS:
+        [√] Flood Fill
+        [ ] 01 Matrix
+        [ ] As Far from Land as Possible
+        [ ] Rotting Oranges
+        [ ] Shortest Path in Binary Matrix
+        [ ] Number of Islands
+        [ ] Word Ladder I
+        [ ] Word Ladder II
+        [ ] Evaluate Division
+        [ ] Get Watched Videos by Your Friends
+        [ ] Cut Off Trees for Golf Event
+    
+    Union Find:
+        [ ] NumberOfConnectedComponentsInAnUndirectedGraph
+        [ ] AccountsMerge
+        [ ] RedundantConnection
+        [ ] FriendCircles
+        [ ] SatisfiabilityOfEqualityEquations
+        [ ] LongestConsecutiveSequence
+        [ ] SurroundedRegions
+        [ ] NumberOfIslands
+        [ ] AccountsMergeII
+        [ ] GraphValidTree
+        [ ] Evaluate Division
+
+
+
 Greedy
     [ ] Activity Selection
     [ ] N meetings in one room
@@ -156,20 +184,21 @@ Greedy
     [ ] Minimum Spanning Tree
     [ ] Shop in Candy Store
     [ ] Geek collects the balls
+    [ ] Minimum balloons burst (greedy as well as ranged binary)
 
 Dynamic Programming
     [ ] Minimum Operations
     [ ] Max length chain
-    [ ] Minimum number of Coins
+    [√] Minimum number of Coins
     [ ] Longest Common Substring
-    [ ] Longest Increasing Subsequence
-    [ ] Longest Common Subsequence
-    [ ] 0 – 1 Knapsack Problem
+    [√] Longest Increasing Subsequence
+    [√] Longest Common Subsequence
+    [√] 0 – 1 Knapsack Problem
     [ ] Maximum sum increasing subsequence
     [ ] Minimum number of jumps
-    [ ] Edit Distance
+    [√] Edit Distance
     [ ] Coin Change Problem
-    [ ] Subset Sum Problem
+    [√] Subset Sum Problem
     [ ] Box Stacking
     [ ] Rod Cutting
     [ ] Path in Matrix
@@ -178,11 +207,19 @@ Dynamic Programming
     [ ] Egg Dropping Puzzle
     [ ] Optimal Strategy for a Game
     [ ] Shortest Common Supersequence
+    [√] Painters partition
+
+    //Extra questions
+    [ ]  Partition to K Equal Sum Subsets
+    [ ] Minimum operatins to reduxe X to 0 (https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+    [ ] Unique paths II (https://leetcode.com/problems/unique-paths-ii/description/)
+    [ ] Unique paths III (https://leetcode.com/problems/unique-paths-iii/)
+
 
 Divide and Conquer
     [ ] Find the element that appears once in sorted array
     [ ] Search in a Rotated Array
-    [ ] Binary Search
+    [√] Binary Search
     [ ] Sum of Middle Elements of two sorted arrays
     [ ] Quick Sort
     [ ] Merge Sort
@@ -212,14 +249,14 @@ BitMagic
     [ ] Maximum subset XOR
 
 Strings
-    [ ] Reverse words in a given string
+    [√] Reverse words in a given string
     [ ] Permutations of a given string
     [ ] Longest Palindrome in a String
     [ ] Recursively remove all adjacent duplicates
     [ ] Check if string is rotated by two places
     [ ] Roman Number to Integer
     [ ] Anagram
-    [ ] Remove Duplicates
+    [√] Remove Duplicates
     [ ] Form a Palindrome
     [ ] Longest Distinct Characters in the string
     [ ] Implement Atoi
@@ -239,4 +276,55 @@ Strings
     [ ] Remove common characters and concatenate
     [ ] Geek and its Colored Strings
     [ ] Second most repeated string in a sequence
+
+
+Ranged Binary Search Questions:
+    [√] House Robber IV
+    [√] Maximum Candies Allocated to K Children
+    [√] Maximum Value at a Given Index in a Bounded Array
+    [√] Kth Missing Positive Number
+    [√] Minimum Number of Days to Make m Bouquets
+    [√] painters Partition
+    [√] Find the Smallest Divisor Given a Threshold
+    [√] Divide Chocolate
+    [√] Capacity To Ship Packages In N Days
+    [√] Koko Eating Bananas
+    [√] Minimize Max Distance to Gas Station
+    [√] Split Array Largest Sum
+    [√] Minimum Time to Complete Trips
+    [√] Maximum Tastiness of Candy Basket
+    [√] Number of Flowers in Full Bloom
+
+Island Problems:
+    [√] Number of islands
+    [ ] Surrounded Regions
+    [ ] Number of Islands
+    [ ] Number of Distinct Islands
+    [ ] Max Area of Island
+
+
+Matrix problems || Needleman-Wunsch algorithm for global alignment:
+    [ ] Spiral matrix I
+    [ ] Spiral matrix II 
+    [ ] Spiral matrix III
+    [ ] Longest Common Subsequence
+    [ ] Shortest Common Supersequence
+    [ ] Edit Distance
+    [ ] Minimum ASCII Delete Sum for Two Strings
+    [ ] Is Subsequence
+    [ ] Distinct Subsequences
+    [ ] Longest Palindromic Subsequence
+    [ ] Longest Palindromic Substring
+    [ ] Palindromic Substrings
+    [ ] Minimum Insertion Steps to Make a String Palindrome
+    [ ] Max Dot Product of Two Subsequences
+
+
+Theory problems:
+    [√] Use comparator to compare objects based on different fields
+
+
+theory to complete:
+[ ] https://leetcode.com/problems/longest-cycle-in-a-graph/solutions/3343308/easy-solutions-with-explanation-in-java-dfs-kahn-s/?languageTags=java
+[ ] klee's algorithm techDose
 
