@@ -1,3 +1,4 @@
+# TODO: Understand carefully
 def combinations(n: int, k: int):
     res = []
     
