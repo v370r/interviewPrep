@@ -231,6 +231,7 @@ BackTracking
     [ ] Rat in a Maze Problem
     [ ] Word Boggle
     [ ] Generate IP Addresses
+    [ ] Combinations
 
 BitMagic 
     [ ] Find first set bit
@@ -319,9 +320,15 @@ Matrix problems || Needleman-Wunsch algorithm for global alignment:
     [ ] Minimum Insertion Steps to Make a String Palindrome
     [ ] Max Dot Product of Two Subsequences
 
+Strange Section:
+    [ ] Strange printer
+    [ ] Remove Boxes
+
 
 Theory problems:
     [√] Use comparator to compare objects based on different fields
+
+
 
 
 theory to complete:
