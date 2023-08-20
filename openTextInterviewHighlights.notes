@@ -5,3 +5,5 @@ Beans and annotations
 How many times if annoted with @autowired will be called or something
 angular binding how it works 
 hooks concept
+api cycle 
+Authentication in spring boot end to end
