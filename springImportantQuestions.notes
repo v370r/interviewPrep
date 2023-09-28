@@ -2,3 +2,22 @@
 Spring annotations all and uses
 rest api cycle
 spring global exceptional handles ..
+
+1.) What is the purpose of the peek operation in Java 8 Streams?
+2.) How does the limit operation work in Java 8 Streams?
+3.) Can you provide an example of how you might use the finally block in exception handling?
+4.) What is the purpose of autoboxing and unboxing in Java?
+5.) How can you enable caching in Spring Data applications?
+6.) What are some common strategies for database schema management in Spring Data projects?
+7.) What is Spring Boot auto-configuration, and why is it important?
+8.) How can you exclude specific auto-configuration classes in Spring Boot?
+9.) What are some common Spring Boot starter dependencies, and when would you use them?
+10.) What is the purpose of the spring-boot-starter-test dependency, and what libraries does it include?
+11.) Explain the difference between programmatic and declarative transaction management in Spring Boot.
+12.) Explain how to write a new controller with request flow?
+13.) What are the deployment options for spring boot application?
+14.) Name some popular logging frameworks supported by Spring Boot?
+15.) What is the default logging level in Spring Boot, and how can you change it?
+16.) What are some common database security best practices?
+17.) Explain SQL injection and how to prevent it.
+18.) Write a Program to find Even Number and Double it using Java 8.
